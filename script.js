@@ -53,6 +53,7 @@ let isNewGame = true;
 function renderCanvas() {
   // Canvas Background
   context.fillStyle = "black";
+  context.globalAlpha = 1;
   context.fillRect(0, 0, width, height);
 
   // Paddle Color
